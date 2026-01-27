@@ -13,37 +13,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-
-
 }
-
-
-
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-
-
-
-    /* Changes */
-display: flex;
-padding: 25px;
-gap: 15px;
-
-
-
-
-
 }
-
-
-
-
-
 
 .icon {
   color: royalblue;
@@ -56,15 +33,6 @@ gap: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-
-
- /* Changes */
-flex-shrink: 0;
-
-
-
-
 }
 
 .close-button {
@@ -80,72 +48,22 @@ flex-shrink: 0;
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-
-
-
-
-
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
-
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-
-
-  
 }
-
-
-
-  /* Changes */
-
-.info {
-
-  display: flex;
-
-background-color: #aaa;
-
-flex-direction: column;
-
-gap: 15px;
-
-
-
-
-}
-
-.container1 {
-display: flex;
-
-align-items: center;
-
-  background-color: aqua;
-
-
-}
-
-.close-button {
-
-margin-left: auto;
-
-}
-
-
-
-
-

@@ -8,6 +8,7 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  
 }
 
 .footer {
@@ -27,3 +28,127 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* my fixes */
+
+body {
+
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+  font-weight: bold;
+  font-size: 25px;
+
+
+
+}
+
+
+
+.main {
+
+display: flex;
+flex: 1;  /* Notes:  content stretches naturally  */
+
+
+}
+
+
+
+
+
+
+
+.sidebar {
+
+flex: 0 0 auto;
+
+
+
+
+
+}
+
+
+.cards{
+display: flex;
+gap:  16px;
+flex-wrap: wrap;
+padding: 25px;
+
+}
+
+
+.card {
+
+ flex: 0 1 250px; /* don't grow, don't shrink, width = 250px */
+  padding: 25px;
+
+}
+
+
+
+
+
+
+
+a {
+
+text-decoration: none;
+color: white;
+
+
+}
+
+
+
+
+
+
+ul {
+
+
+list-style: none;
+
+
+
+padding: 0px 16px;
+  
+
+
+
+}
+
+
+
+
+.footer {
+
+  display: flex;
+
+  
+  justify-content: center;
+  align-items: center;
+  
+
+
+
+
+ 
+  
+
+}
+
+
+
